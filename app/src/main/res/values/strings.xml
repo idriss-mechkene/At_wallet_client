@@ -1,0 +1,118 @@
+<resources>
+    <string-array name="rangeSliderValuee">
+        <item>2000</item>
+        <item>8000</item>
+    </string-array>
+
+    <string name="app_name">AT Wallet</string>
+    <string name="email">Email</string>
+    <string name="connexion">Connexion</string>
+    <string name="password">Password</string>
+    <string name="probl_me_de_connexion">Probléme de connexion ?</string>
+    <string name="pas_de_compte">Pas de Compte ?</string>
+    <string name="inscription"><u>Inscription</u></string>
+    <string name="accueil">Accueil</string>
+    <string name="historique">Historique</string>
+    <string name="profile">Profile</string>
+    <string name="param_tres">Paramètres</string>
+    <string name="entrer_code">Entrer Code</string>
+    <string name="code">Code</string>
+    <string name="valider">Valider</string>
+    <string name="cliquez_ici_pour_scanner">Cliquez ici pour scanner</string>
+    <string name="qr_code">QR CODE</string>
+    <string name="solde_msg">Votre solde</string>
+    <string name="string_paiement">Paiement</string>
+    <string name="recharge">Recharge</string>
+    <string name="recharger">Recharger  </string>
+    <string name="telephone">Téléphone</string>
+    <string name="montant">Montant</string>
+    <string name="autres">Autres</string>
+    <string name="propos">À propos</string>
+    <string name="deconnect">Deconnecté</string>
+    <string name="changer_mot_de_passe">Changer mot de passe</string>
+    <string name="modifier_profile">Modifier profile</string>
+    <string name="activite">Les Dernières Transactions</string>
+    <string name="voir_tout">Voir tout</string>
+    <string name="alimentation_compte">Alimentation de compte</string>
+    <string name="hint_alimentation">le montant va être ajouté dans votre \n AT-Wallet</string>
+    <string name="Alimenter">Alimenter</string>
+    <string name="informations_Profil">Renseignements personnels</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="modifier">Modifier</string>
+    <string name="change_password">Changer mot de passe</string>
+    <string name="ancien_mot_de_passe">Ancien mot de passe</string>
+    <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
+    <string name="confirmer_mot_de_passe">Confirmer mot de passe</string>
+    <string name="changer">changer</string>
+
+    <string name="filter">Filter</string>
+    <string name="tout">Tout</string>
+    <string name="credit">crédit</string>
+    <string name="debit">débit</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="date">Date</string>
+    <string name="debut">Début</string>
+    <string name="fin">Fin</string>
+    <string name="country_code">TND</string>
+    <string name="millimes">Millimes</string>
+
+    <string name="search">Recherche</string>
+
+    <string name="at_wallet">AT-Wallet</string>
+    <string name="connectez_vous">Connectez vous</string>
+    <string name="utiliser_votre_empteinte">Utilisez votre empreinte \n pour vous connecter à votre compte</string>
+    <string name="ou">ou</string>
+
+    <string name="verification_code">Code Vérification</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="hint_verification_code">veuillez saisir le code de vérification envoyé à : </string>
+    <string name="mot_de_passe_oublie">Mot de Passe Oublié ?</string>
+    <string name="txt_re_code">Renvoyer code </string>
+
+    <string name="reinitialiser">Réinitialiser</string>
+    <string name="title_reinitialiser">Réinitialiser mot de passe</string>
+    <string name="msg_reinitialiser">Saisissiez un nouveau mot de passe\n Nous vous recommandons vivement de créer un mot de passe unique</string>
+    <string name="confirm_finger_print">Confirmer votre empreinte digitale.</string>
+    <string name="annuler">Annuler</string>
+
+    <string name="sinscrire">s\'inscrire</string>
+    <string name="carte_identite">Carte Identité</string>
+    <string name="hint_inscription">Vous avez un compte ?</string>
+    <string name="champs_obligatoir">Champ Obligatoire</string>
+    <string name="email_invalide">Adresse mail invalide</string>
+    <string name="champs_size_password">La taille du mot de passe doit être comprise entre 6 et 10</string>
+    <string name="champs_size_cin">La taille du carte d\'identité doit être en 8 chiffres.</string>
+    <string name="matching_password">Le mot de passe ne correspond pas</string>
+    <string name="message_empreinte_digitale">Voullez vous utiliser l\'empreinte Digitale</string>
+    <string name="num_tel_invalide">Numéro telephone invalide</string>
+    <string name="indicateur_invalide">Invalide Indicateur</string>
+    <string name="error_connexion">Erreur Connexion</string>
+    <string name="error_serveur">Erreur Serveur</string>
+    <string name="provider">Prestataire:</string>
+    <string name="city">Ville:</string>
+    <string name="ref">Référence:</string>
+    <string name="amount">Montant:</string>
+    <string name="title_detail_qr">Detail QR</string>
+    <string name="amount_mauvais_format">Montant avec mauvais format ex : 2000</string>
+    <string name="montant_ex">Montant ex : 1000</string>
+
+    <string name="close">Fermer</string>
+    <string name="error">Erreur</string>
+    <string name="success">Success</string>
+    <string name="oui">oui</string>
+    <string name="non_merci">non, merci</string>
+    <string name="min_max_price_error">montant minimale superrieur aux maximale</string>
+    <string name="min_max_date_error">date minimale superrieur aux maximale</string>
+    <string name="reset">Reset</string>
+    <string name="operateur">Operateur:</string>
+    <string name="tel_recharge">Téléphone:</string>
+    <string name="confirmation_recharge">Confirmation Recharge</string>
+    <string name="code_non_recue">Code non reçue ? </string>
+    <string name="Renvoyer"> Renvoyer </string>
+    <string name="vérifier">vérifier </string>
+    <string name="Confirmation_inscri">Confirmation inscription </string>
+
+
+</resources>

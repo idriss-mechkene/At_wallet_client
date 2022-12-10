@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="4dp"
+    android:background="@android:color/transparent">
+
+    <View
+        android:id="@+id/img_news"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/light_transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/tv_title"
+        android:layout_width="150dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/light_transparent"
+        app:layout_constraintLeft_toRightOf="@+id/img_news"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/tv_content"
+        android:layout_width="100dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/light_transparent"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <View
+        android:id="@+id/tv_time"
+        android:layout_width="80dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/light_transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout><!--<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_below="@+id/id_history_card"-->
+    <!--    android:layout_marginStart="10dp"-->
+    <!--    android:layout_marginTop="4dp"-->
+    <!--    android:layout_marginEnd="10dp"-->
+    <!--    android:layout_marginBottom="10dp"-->
+    <!--    app:cardBackgroundColor="@color/white"-->
+    <!--    app:cardCornerRadius="17dp"-->
+    <!--    app:cardElevation="2dp">-->
+
+    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:padding="3dp">-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/transaction_title"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="16dp"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="4dp"-->
+    <!--        android:layout_toEndOf="@+id/id_circle_icon_layout"-->
+    <!--        android:background="@color/light_transparent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/id_circle_icon_layout"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/trasaction_date"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="10dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:background="@color/light_transparent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/transaction_title"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/transaction_title" />-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/transaction_amount"-->
+    <!--        android:layout_width="90dp"-->
+    <!--        android:layout_height="20dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:background="@color/light_transparent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/id_circle_icon_layout"-->
+    <!--        android:layout_width="40dp"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:background="@drawable/bg_icon_transaction_item"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--        <View-->
+    <!--            android:layout_width="90dp"-->
+    <!--            android:layout_height="0dp"-->
+    <!--            android:layout_marginLeft="16dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:layout_marginRight="16dp"-->
+    <!--            android:layout_marginBottom="16dp"-->
+    <!--            android:background="@color/light_transparent"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent" />-->
+    <!--        &lt;!&ndash;        <ImageView&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:id="@+id/transaction_icon"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_centerInParent="true"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_marginStart="3dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_marginTop="3dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_marginEnd="3dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_marginBottom="3dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:src="@drawable/ic_phone"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            app:tint="@color/purple_700" />&ndash;&gt;-->
+    <!--    </View>-->
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>&lt;!&ndash;</com.google.android.material.card.MaterialCardView>&ndash;&gt;-->

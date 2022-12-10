@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398572829329",
+    "project_id": "at-wallet-52070",
+    "storage_bucket": "at-wallet-52070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398572829329:android:aec8f6c67057e70e559d30",
+        "android_client_info": {
+          "package_name": "com.alliancetechnologie.at_wallet_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398572829329-b8t04jd7knfj5v9sdiihgs0ugticfsul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaSC0LOmg6lavRi6Tc6ueSu7KC3pPgLVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398572829329-b8t04jd7knfj5v9sdiihgs0ugticfsul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

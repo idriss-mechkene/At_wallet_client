@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DialogAnimation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#B1A9A9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/manrope_regular"
+        android:text="@string/montant"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_min_price"
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2.5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:hint="@string/min"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@null"
+            app:startIconDrawable="@drawable/ic_dollar"
+            app:suffixText="@string/country_code">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_min_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_regular"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_max_price"
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2.5dp"
+            android:layout_weight="1"
+            android:hint="@string/max"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@null"
+
+            app:startIconDrawable="@drawable/ic_dollar"
+            app:suffixText="@string/country_code">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_max_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_regular"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="-4dp"
+        android:id="@+id/txt_error_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/min_max_price_error"
+        android:layout_gravity="center"
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/price_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="30dp"
+        android:tag="@string/string_paiement"
+        android:valueFrom="1000"
+
+        android:valueTo="100000"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:thumbColor="@color/purple_700"
+        app:trackColor="@color/purple_700"
+        app:values="@array/rangeSliderValuee"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/manrope_regular"
+        android:text="@string/date"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_min_date"
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2.5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            app:errorIconDrawable="@null"
+            android:gravity="center_horizontal"
+            android:hint="@string/debut"
+            app:errorEnabled="true"
+            app:startIconDrawable="@drawable/ic_calendar">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_min_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/manrope_regular"
+                tools:ignore="KeyboardInaccessibleWidget" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_layout_max_date"
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+          android:layout_marginStart="2.5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="@string/fin"
+            app:errorIconDrawable="@null"
+            app:errorEnabled="true"
+            app:startIconDrawable="@drawable/ic_calendar"
+            app:suffixTextColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_max_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/manrope_regular"
+                tools:ignore="KeyboardInaccessibleWidget" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_error_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/min_max_date_error"
+        android:layout_gravity="center"
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:layout_marginTop="-4dp"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/manrope_extra_bold"
+        android:gravity="center"
+        android:text="@string/changer"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/purple_500" />
+</LinearLayout>
